@@ -43,7 +43,7 @@
             // 
             this.buttonGo.Location = new System.Drawing.Point(12, 53);
             this.buttonGo.Name = "buttonGo";
-            this.buttonGo.Size = new System.Drawing.Size(233, 43);
+            this.buttonGo.Size = new System.Drawing.Size(233, 26);
             this.buttonGo.TabIndex = 0;
             this.buttonGo.Text = "Start";
             this.buttonGo.UseVisualStyleBackColor = true;
@@ -51,9 +51,9 @@
             // 
             // buttonStop
             // 
-            this.buttonStop.Location = new System.Drawing.Point(12, 102);
+            this.buttonStop.Location = new System.Drawing.Point(12, 85);
             this.buttonStop.Name = "buttonStop";
-            this.buttonStop.Size = new System.Drawing.Size(233, 46);
+            this.buttonStop.Size = new System.Drawing.Size(233, 28);
             this.buttonStop.TabIndex = 1;
             this.buttonStop.Text = "Stop";
             this.buttonStop.UseVisualStyleBackColor = true;
@@ -63,9 +63,9 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 187);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 183);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(286, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(260, 22);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -95,7 +95,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 154);
+            this.checkBox1.Location = new System.Drawing.Point(12, 119);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(105, 17);
             this.checkBox1.TabIndex = 6;
@@ -104,7 +104,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(139, 154);
+            this.button1.Location = new System.Drawing.Point(139, 119);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 24);
             this.button1.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(286, 209);
+            this.ClientSize = new System.Drawing.Size(260, 205);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
